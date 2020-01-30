@@ -1,5 +1,5 @@
 module.exports = {
     'secretToken': 'parkiran1',
-    'server_mongoose': `mongodb://node2.4920.internal:31216/parkiran?retryWrites="true"`,
+    'server_mongoose': `mongodb://${process.env.NODE_NAME}:${process.env.PORT_DATABASE_MONGO}/${process.env.COLLECTION_DATABASE_MONGO}?retryWrites="true"`,
     'hashPassword': 'parkiran_oke',
 }
