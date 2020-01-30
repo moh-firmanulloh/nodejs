@@ -12,7 +12,7 @@ class DBConnect {
 
             if (err) console.log('error connect to database');
 
-            console.log("conencted database", process.env.PORT_DATABASE_MONGO);
+            console.log("connected database", process.env.PORT_DATABASE_MONGO);
 
 
         });
